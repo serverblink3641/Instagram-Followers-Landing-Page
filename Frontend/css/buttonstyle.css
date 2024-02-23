@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.enter_lair {
+  display: block;
+  text-align: center;
+}
+
+#connectButton {
+  order: -1;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: #eaeaea;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+#claimButton {
+  width: 200px;
+  height: 50px;
+  background-color: #eaeaea;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
